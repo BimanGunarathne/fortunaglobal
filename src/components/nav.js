@@ -15,7 +15,12 @@ function Nav() {
         </div>
         <div className='header_col3'>
             <div className='header_social_icons'>
-                
+
+            </div>
+        </div>
+        <div className='header_col4'>
+            <div className='header_other'>
+
             </div>
         </div>
     </div>
