@@ -10,6 +10,11 @@ function Nav() {
         </div>
         <div className='header_col2'>
             <div className='header_search_bar'>
+
+            </div>
+        </div>
+        <div className='header_col3'>
+            <div className='header_social_icons'>
                 
             </div>
         </div>
