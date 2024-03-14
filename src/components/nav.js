@@ -2,6 +2,9 @@ import React from 'react'
 import './nav.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faLinkedin, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import 'materialize-css/dist/css/materialize.min.css'
+import { faCartShopping, faHeart, faScaleBalanced } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-regular-svg-icons'
 function Nav() {
     return (
         <div className='header'>
@@ -12,10 +15,9 @@ function Nav() {
             </div>
             <div className='header_col2'>
                 <div className='header_search_bar'>
-                    <input type="text" className='form-control' placeholder='Search in' />
-                    <div className='input-group-append'>
-                        <button className='btn btn-outline-secondary' type='button'>Search</button>
-                    </div>
+                    <form>
+                        <input type='text' id='search' placeholder='Search in...' />
+                    </form>
                 </div>
             </div>
             <div className='header_col3'>
@@ -46,27 +48,23 @@ function Nav() {
                     <ul>
                         <li>
                             <a href="#">
-                                <FontAwesomeIcon icon="fa-solid fa-heart" />
+                                <FontAwesomeIcon icon={faHeart} />
                             </a>
-                        </li>
-                        <li>
                             <a href="#">
-                                <FontAwesomeIcon icon="fa-solid fa-scale-balanced" />
+                                <FontAwesomeIcon icon={faScaleBalanced} />
                             </a>
-                        </li>
-                        <li>
                             <a href="#">
-                                <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+                                <FontAwesomeIcon icon={faCartShopping} />
                             </a>
-                        </li>
-                        <li>
                             <a href="#">
-                            <FontAwesomeIcon icon="fa-regular fa-user" />
+                                <FontAwesomeIcon icon={faUser} />
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
+
+
         </div>
     )
 }
