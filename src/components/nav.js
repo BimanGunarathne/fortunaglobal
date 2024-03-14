@@ -49,12 +49,15 @@ function Nav() {
                         <li>
                             <a href="#">
                                 <FontAwesomeIcon icon={faHeart} />
+                                <span className='text'>Wishlist</span>
                             </a>
                             <a href="#">
                                 <FontAwesomeIcon icon={faScaleBalanced} />
+                                <span className='text'>Compair</span>
                             </a>
                             <a href="#">
                                 <FontAwesomeIcon icon={faCartShopping} />
+                                <span className='text'>Cart</span>
                             </a>
                             <a href="#">
                                 <FontAwesomeIcon icon={faUser} />
