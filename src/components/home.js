@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.scss'
-
+import { Tab, Tabs } from 'react-bootstrap'
 function Home() {
     return (
         <div className='home'>
@@ -114,8 +114,218 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='right col s12 m8 19'>
-                        <h2>FORTUNA MALL</h2>
+                    <div className='right col s12 m4 l8'>
+                        <div className='fortunamall'>
+                            <h2>FORTUNA MALL</h2>
+                            <div className="main_categories_sec">
+                                <div className='main_cats col s1' id='col1'>
+                                    <div className="div_image">
+                                        <img className='div_main_img' src="http://localhost:3000/images/madeinsrilanka.webp" alt="" />
+                                    </div>
+                                    <div className='div_cat'>
+                                        <h3>MED IN<br />SRILANKA</h3>
+                                        <a href="">
+                                            <span>Shop now<img className='arrow_button' src="http://localhost:3000/images/right-arrow-button.svg" alt="" /></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='main_cats col s1' id='col2'>
+                                    <div className='div_image'>
+                                        <img className='div_main_img' src="http://localhost:3000/images/Grosery.webp" alt="" />
+                                    </div>
+                                    <div className='div_cat'>
+                                        <h3>FOOD AND<br />BEVERAGE</h3>
+                                        <a href="">
+                                            <span>Shop now<img className='arrow_button' src="http://localhost:3000/images/right-arrow-button.svg" alt="" /></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='main_cats col s1' id='col3'>
+                                    <div className='div_image'>
+                                        <img className='div_main_img' src="http://localhost:3000/images/beauty.webp" alt="" />
+                                    </div>
+                                    <div className='div_cat'>
+                                        <h3>HEALTH AND<br />BEAUTY</h3>
+                                        <a href="">
+                                            <span>Shop now<img className='arrow_button' src="http://localhost:3000/images/right-arrow-button.svg" alt="" /></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="item_grid_1">
+                            <Tabs
+                                defaultActiveKey="Electronics"
+                                id='fill-tab-example'
+                                className='mb-3'
+                                fill
+                            >
+                                <Tab eventKey="Electronics" title="Electronics">
+                                    <div className='main_item_grid'>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className='item_image'>
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Headphones</span>
+                                            <p>White Solor 2 Wireless</p>
+                                            <div className='item_image'>
+                                                <img src="http://localhost:3000/images/headphone.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>85,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className="item_image">
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className="item_image">
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className="item_image">
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='main_item_grid'>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className='item_image'>
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Headphones</span>
+                                            <p>White Solor 2 Wireless</p>
+                                            <div className='item_image'>
+                                                <img src="http://localhost:3000/images/headphone.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>85,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className="item_image">
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className="item_image">
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='first_item col s1'>
+                                            <span>Laptops, Ultrabooks</span>
+                                            <p>Tablet Red EliteBook Revolve</p>
+                                            <div className="item_image">
+                                                <img src="http://localhost:3000/images/TabletRedEliteBookRevolve.webp" alt="" />
+                                            </div>
+
+                                            <div className='price_button'>
+                                                <span>17,500.00 LKR</span>
+                                                <div className='basket_icon'>
+                                                    <a href="">
+                                                        <img src="http://localhost:3000/images/basket.svg" alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Tab>
+                                <Tab eventKey="Camerasandaccessories" title="Cameras & Accessories">
+
+                                </Tab>
+                                <Tab eventKey="Otherelectronics" title="Other Electronics">
+
+                                </Tab>
+                            </Tabs>
+                        </div>
                     </div>
                 </div>
             </div>
