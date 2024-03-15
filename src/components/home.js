@@ -338,10 +338,35 @@ function Home() {
                                 </div>
                             </div>
                             <div className="grid2_mid_col col s12 m4 l8">
-                                <div className="row_top"></div>
-                                <div className="row_bottom"></div>
+                                <div className="row_top">
+                                    <div className="detail_top_midtop">
+                                        <span>Hich Tech News</span>
+                                        <h3>Apple iPhone 13 <br /> Color Red</h3>
+                                    </div>
+                                    <div className="image_iphone">
+                                        <img src="http://localhost:3000/images/iPhone12.webp" alt="" />
+                                    </div>
+                                </div>
+                                <div className="row_bottom">
+                                    <div className="detail_bottom_midbot">
+                                        <span>Hich Tech News</span>
+                                        <h3>Music Makes <br /> Feel Better</h3>
+                                    </div>
+                                    <div className="speaker_image">
+                                        <img src="http://localhost:3000/images/minimalspeaker.webp" alt="" />
+                                    </div>
+                                </div>
                             </div>
-                            <div className="grid2_right_col col s12 m4 l2"></div>
+                            <div className="grid2_right_col col s12 m4 l2">
+                                <div className="detail_lef_leftcol">
+                                    <span>Hich Tech News</span>
+                                    <h3>Apple <br />iwatch Nike <br />Edition</h3>
+                                    <button>WATCH DEMO</button>
+                                </div>
+                                <div className="iwatch_image">
+                                    <img src="http://localhost:3000/images/iWatch.webp" alt="" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
