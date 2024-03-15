@@ -326,6 +326,23 @@ function Home() {
                                 </Tab>
                             </Tabs>
                         </div>
+                        <div className="item_grid_2">
+                            <div className='grid2_left_col col s12 m6 l3'>
+                                <div className='detail_top_left'>
+                                    <span>Hich Tech News</span>
+                                    <h3>Monster Beats <br /> Headphones</h3>
+                                    <button>READ MORE</button>
+                                </div>
+                                <div className='image_headphone'>
+                                    <img src="http://localhost:3000/images/blueheadphone.webp" alt="" />
+                                </div>
+                            </div>
+                            <div className="grid2_mid_col col s12 m4 l8">
+                                <div className="row_top"></div>
+                                <div className="row_bottom"></div>
+                            </div>
+                            <div className="grid2_right_col col s12 m4 l2"></div>
+                        </div>
                     </div>
                 </div>
             </div>
