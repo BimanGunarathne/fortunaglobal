@@ -53,10 +53,14 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="header_bottom">
-
+            <div className='footer_bottom'>
+                <div className="inner_footer_bottom">
+                    <p>Copyright &copy; 2024 Fortunaglobal Pvt.Ltd, All Right Reserved</p>
+                </div>
             </div>
+
         </div>
+
     )
 }
 
